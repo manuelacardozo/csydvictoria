@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url("https://use.typekit.net/kri1dxm.css");
+
+//font-family: 'Rubik', sans-serif;
+//font-family: "obviously", sans-serif;
+//font-weight: 500;
+//font-style: normal;
+//font-family: "obviously", sans-serif;
+//font-weight: 700;
+//font-style: normal;
+//font-family: "obviously", sans-serif;
+//font-weight: 800;
+//font-style: normal; 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//color
+$color1: #0071bc;
+$color2: white;
+$color3: black;
+
+//tipografias
+$tipo1: 'rubik', sans-serif;
+$tipo2: "obviously", sans-serif;
+
+.navbar{
+    background-color: $color1;
+    padding-left: 30px;
+
+    ul{
+        li{
+            a{
+                color: $color2;
+                font-family: $tipo2;
+                font-size: 500;
+                text-transform: uppercase;
+                background-color: $color1;
+            }
+            a:hover{
+                background-color: $color2;
+                text-decoration: none;
+                color: $color1;
+            }
+        }
+    }
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.bannerinicio{
+    width: 60%;
+    padding: 30px 0 0 150px;
+}
+
+.card{
+    margin: 10px 0 30px 0;
+}
+
+.card-body{
+    background-color: $color1;    
+}
+
+.card-text{
+    font-family: $tipo1;
+    color: $color2;
+    font-weight: 300;
+    font-size: 20px;
+} 
+
+.btn{
+    color: $color2;
+    background-color: $color3;
+    font-family: $tipo2;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 90px 0 0;
+}
+
+.asociate{
+    h3{
+        font-family: $tipo1;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    p{
+        font-family: $tipo1;
+        font-size: 18px;
+    }
+}
+
+.FotoSocio{
+    background-image: url(imágenes/asociate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.table{
+    font-family: $tipo1;
+    color: $color2;
+    background-color: $color1;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.ProxPartidos{
+    background-color: $color1;
+    font-family: $tipo1;
+    font-weight: 500;
+    color: $color2;
+    text-transform: uppercase;
+    padding: 1% 0 0.5% 0;
+    text-align: center;
+}
+
+.partidos{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-responsive{
+    width: 70%;
+}
+
+.FooterBarra {
+    background-color: $color3;
+    font-family: $tipo1;
+    font-weight: 100;
+    padding: 1px 0 10px 10px;
+
+    .container{
+        margin-top: 10px;
+    }
+
+    .iconos{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 25px;
+    margin-left: 290px;
+    }
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80%;
+    color: $color2;
+    text-decoration: none;
+}
+a{
+    color: $color2;
+    font-family: $tipo1;
+    a:visited{
+        text-decoration: none;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a:hover{
+        color: $color1;
+    }
+}
+
