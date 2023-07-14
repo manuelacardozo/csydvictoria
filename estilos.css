@@ -28,7 +28,7 @@
 }
 
 .bannerinicio {
-  width: 60%;
+  width: 80%;
   padding: 30px 0 0 150px;
 }
 
@@ -79,27 +79,32 @@
   color: white;
   background-color: #0071bc;
   justify-content: center;
-  margin-top: 150px;
+  margin: 150px auto 100px auto;
 }
 
-.ProxPartidos {
-  background-color: #0071bc;
-  font-family: "rubik", sans-serif;
-  font-weight: 500;
-  color: white;
+.actividades {
+  background-image: url(imágenes/actividades.jpg);
+  background-size: cover;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TextoActividades h2 {
+  font-family: "obviously", sans-serif;
   text-transform: uppercase;
-  padding: 1% 0 0.5% 0;
+  background-color: #0071bc;
+  color: white;
+  padding: 0 15px 10px 15px;
+}
+.TextoActividades p {
+  font-family: "rubik", sans-serif;
+}
+
+.deportes h4 {
+  font-family: "obviously", sans-serif;
   text-align: center;
-}
-
-.partidos {
-  margin: 5%;
-  display: flex;
-  justify-content: center;
-}
-
-.img-responsive {
-  width: 70%;
+  color: #0071bc;
 }
 
 .FooterBarra {
@@ -107,6 +112,8 @@
   font-family: "rubik", sans-serif;
   font-weight: 100;
   padding: 1px 0 10px 10px;
+  bottom: 0;
+  width: 100%;
 }
 .FooterBarra .container {
   margin-top: 10px;
@@ -139,6 +146,42 @@ a a:link {
 }
 a a:hover {
   color: #0071bc;
+}
+
+@media only screen and (max-width: 350px) {
+  .bannerinicio {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bannerinicio {
+    display: none;
+  }
+  .asociate {
+    margin-left: 10px;
+    align-items: center;
+  }
+  .FotoSocio {
+    height: 300px;
+  }
+  .table {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .bannerinicio {
+    display: none;
+  }
+  .asociate {
+    margin-left: 10px;
+    align-items: center;
+  }
+  .FotoSocio {
+    height: 300px;
+  }
+  .table {
+    margin-top: 80px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -53,7 +53,7 @@ $tipo2: "obviously", sans-serif;
 }
 
 .bannerinicio{
-    width: 60%;
+    width: 80%;
     padding: 30px 0 0 150px;
 }
 
@@ -106,34 +106,66 @@ $tipo2: "obviously", sans-serif;
     color: $color2;
     background-color: $color1;
     justify-content: center;
-    margin-top: 150px;
+    margin: 150px auto 100px auto;
 }
 
-.ProxPartidos{
-    background-color: $color1;
-    font-family: $tipo1;
-    font-weight: 500;
-    color: $color2;
-    text-transform: uppercase;
-    padding: 1% 0 0.5% 0;
-    text-align: center;
+.actividades{
+    background-image: url(imágenes/actividades.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.partidos{
-    margin: 5%;
-    display: flex;
-    justify-content: center;
+.TextoActividades{
+    h2{
+        font-family: $tipo2;
+        text-transform: uppercase;
+        background-color: $color1;
+        color: $color2;
+        padding: 0 15px 10px 15px;
+    }
+    p{
+        font-family: $tipo1;
+    }
 }
 
-.img-responsive{
-    width: 70%;
+.deportes{
+    h4{
+        font-family: $tipo2;
+        text-align: center;
+        color: $color1;
+    }
+
 }
+
+//.ProxPartidos{//
+//    background-color: $color1;
+//    font-family: $tipo1;
+//    font-weight: 500;
+//    color: $color2;
+//    text-transform: uppercase;
+//    padding: 1% 0 0.5% 0;
+//    text-align: center;
+//}
+
+//.partidos{
+//    margin: 5%;
+//    display: flex;
+//    justify-content: center;
+//}
+
+//.img-responsive{
+//    width: 70%;
+//}
 
 .FooterBarra {
     background-color: $color3;
     font-family: $tipo1;
     font-weight: 100;
     padding: 1px 0 10px 10px;
+    bottom: 0;
+    width: 100%;
 
     .container{
         margin-top: 10px;
@@ -169,3 +201,41 @@ a{
     }
 }
 
+@media only screen and (max-width:350px) {
+    .bannerinicio {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .bannerinicio {
+        display: none;
+    }
+    .asociate{
+        margin-left: 10px;
+        align-items: center;
+    }
+    .FotoSocio{
+        height: 300px;
+    }
+    .table{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .bannerinicio {
+        display: none;
+    }
+    .asociate{
+        margin-left: 10px;
+        align-items: center;
+    }
+    .FotoSocio{
+        height: 300px;
+    }
+    .table{
+        margin-top: 80px;
+    }
+}
