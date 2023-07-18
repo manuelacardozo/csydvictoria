@@ -53,7 +53,8 @@ $tipo2: "obviously", sans-serif;
 }
 
 .bannerInicio{
-    padding-top: 20px
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .card{
@@ -123,9 +124,11 @@ $tipo2: "obviously", sans-serif;
         background-color: $color1;
         color: $color2;
         padding: 0 15px 10px 15px;
+        margin-top: 5px;
     }
     p{
         font-family: $tipo1;
+        text-align: justify;
     }
 }
 
@@ -155,6 +158,19 @@ $tipo2: "obviously", sans-serif;
     }
 }
 
+.list-group{
+    font-family: $tipo2;
+    color: $color3;
+    padding-bottom: 20px;
+}
+
+.titulos{
+    .card-text{
+        font-family: $tipo2;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+}
 
 //.ProxPartidos{//
 //    background-color: $color1;
@@ -215,17 +231,9 @@ a{
     }
 }
 
-@media only screen and (max-width:350px) {
-    .bannerinicio {
-        display: none;
-    }
-
-}
 
 @media only screen and (max-width:768px) {
-    .bannerinicio {
-        display: none;
-    }
+    
     .asociate{
         margin-left: 10px;
         align-items: center;
@@ -239,9 +247,7 @@ a{
 }
 
 @media only screen and (max-width:992px) {
-    .bannerinicio {
-        display: none;
-    }
+
     .asociate{
         margin-left: 10px;
         align-items: center;
