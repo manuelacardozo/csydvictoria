@@ -52,9 +52,8 @@ $tipo2: "obviously", sans-serif;
     border: none;
 }
 
-.bannerinicio{
-    width: 80%;
-    padding: 30px 0 0 150px;
+.bannerInicio{
+    padding-top: 20px
 }
 
 .card{
@@ -85,7 +84,7 @@ $tipo2: "obviously", sans-serif;
 
 .asociate{
     h3{
-        font-family: $tipo1;
+        font-family: $tipo2;
         font-size: 40px;
         text-transform: uppercase;
     }
@@ -139,6 +138,24 @@ $tipo2: "obviously", sans-serif;
 
 }
 
+.sedes{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    iframe{
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 20px;
+        font-family: $tipo1;
+    }
+    .card{
+        img{
+            height: 600px;
+        }
+    }
+}
+
+
 //.ProxPartidos{//
 //    background-color: $color1;
 //    font-family: $tipo1;
@@ -172,11 +189,8 @@ $tipo2: "obviously", sans-serif;
     }
 
     .iconos{
-    display: inline-flex;
     justify-content: space-around;
-    width: 30%;
     font-size: 25px;
-    margin-left: 290px;
     }
 }
 

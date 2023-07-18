@@ -27,9 +27,8 @@
   border: none;
 }
 
-.bannerinicio {
-  width: 80%;
-  padding: 30px 0 0 150px;
+.bannerInicio {
+  padding-top: 20px;
 }
 
 .card {
@@ -59,7 +58,7 @@
 }
 
 .asociate h3 {
-  font-family: "rubik", sans-serif;
+  font-family: "obviously", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
 }
@@ -107,6 +106,21 @@
   color: #0071bc;
 }
 
+.sedes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sedes iframe {
+  margin-top: 20px;
+}
+.sedes p {
+  margin-top: 20px;
+  font-family: "rubik", sans-serif;
+}
+.sedes .card img {
+  height: 600px;
+}
+
 .FooterBarra {
   background-color: black;
   font-family: "rubik", sans-serif;
@@ -119,11 +133,8 @@
   margin-top: 10px;
 }
 .FooterBarra .iconos {
-  display: inline-flex;
   justify-content: space-around;
-  width: 30%;
   font-size: 25px;
-  margin-left: 290px;
 }
 
 .menu {
