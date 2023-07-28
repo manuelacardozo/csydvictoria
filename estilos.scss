@@ -21,6 +21,7 @@
 $color1: #0071bc;
 $color2: white;
 $color3: black;
+$color4: #FAFAFA;
 
 //tipografias
 $tipo1: 'rubik', sans-serif;
@@ -172,25 +173,43 @@ $tipo2: "obviously", sans-serif;
     }
 }
 
-//.ProxPartidos{//
-//    background-color: $color1;
-//    font-family: $tipo1;
-//    font-weight: 500;
-//    color: $color2;
-//    text-transform: uppercase;
-//    padding: 1% 0 0.5% 0;
-//    text-align: center;
-//}
+.tituloInfo{
+    background-color: $color1;
+    color: $color2;
+    font-family: $tipo2;
+    text-transform: uppercase;
+    
+}
 
-//.partidos{
-//    margin: 5%;
-//    display: flex;
-//    justify-content: center;
-//}
 
-//.img-responsive{
-//    width: 70%;
-//}
+.proximosPartidos{
+    h6{
+        font-family: $tipo1;
+        font-size: 100%;
+        text-transform: uppercase;
+        background-color: $color1;
+        color: $color2;
+    }
+    .card-body{
+        background-color: $color4;
+    }
+    .escudos{
+        img{
+            width: 80%;
+        }
+    }
+    h2{
+        font-family: $tipo2;
+        font-weight: 600;
+        color: $color1;
+    }
+    .card-text{
+        color: $color3;
+        font-size: 100%;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+}
 
 .FooterBarra {
     background-color: $color3;
