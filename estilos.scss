@@ -93,6 +93,7 @@ $tipo2: "obviously", sans-serif;
     p{
         font-family: $tipo1;
         font-size: 18px;
+        text-align: justify;
     }
 }
 
@@ -130,6 +131,7 @@ $tipo2: "obviously", sans-serif;
     p{
         font-family: $tipo1;
         text-align: justify;
+        margin: 0 20px 20px 20px;
     }
 }
 
@@ -138,8 +140,12 @@ $tipo2: "obviously", sans-serif;
         font-family: $tipo2;
         text-align: center;
         color: $color1;
+        transition: 1s;
     }
-
+    h4:hover{
+        background-color: $color3;
+        color: $color2;
+    }
 }
 
 .sedes{
@@ -151,11 +157,12 @@ $tipo2: "obviously", sans-serif;
     p{
         margin-top: 20px;
         font-family: $tipo1;
+        text-align: justify;
     }
     .card{
-        img{
+            img{
             height: 600px;
-        }
+            }
     }
 }
 
@@ -163,7 +170,17 @@ $tipo2: "obviously", sans-serif;
     font-family: $tipo2;
     color: $color3;
     padding-bottom: 20px;
+    margin: 5px 0px 5px 5px;
 }
+
+.imgAutoridades{
+    img{
+        width: 120%;
+        height: auto;
+    }
+
+}
+
 
 .titulos{
     .card-text{
@@ -259,9 +276,6 @@ a{
     }
     .FotoSocio{
         height: 300px;
-    }
-    .table{
-        margin-top: 80px;
     }
 }
 

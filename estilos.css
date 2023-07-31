@@ -66,6 +66,7 @@
 .asociate p {
   font-family: "rubik", sans-serif;
   font-size: 18px;
+  text-align: justify;
 }
 
 .FotoSocio {
@@ -101,12 +102,18 @@
 .TextoActividades p {
   font-family: "rubik", sans-serif;
   text-align: justify;
+  margin: 0 20px 20px 20px;
 }
 
 .deportes h4 {
   font-family: "obviously", sans-serif;
   text-align: center;
   color: #0071bc;
+  transition: 1s;
+}
+.deportes h4:hover {
+  background-color: black;
+  color: white;
 }
 
 .sedes {
@@ -119,6 +126,7 @@
 .sedes p {
   margin-top: 20px;
   font-family: "rubik", sans-serif;
+  text-align: justify;
 }
 .sedes .card img {
   height: 600px;
@@ -128,6 +136,12 @@
   font-family: "obviously", sans-serif;
   color: black;
   padding-bottom: 20px;
+  margin: 5px 0px 5px 5px;
+}
+
+.imgAutoridades img {
+  width: 120%;
+  height: auto;
 }
 
 .titulos .card-text {
@@ -213,9 +227,6 @@ a a:hover {
   }
   .FotoSocio {
     height: 300px;
-  }
-  .table {
-    margin-top: 80px;
   }
 }
 @media only screen and (max-width: 992px) {
